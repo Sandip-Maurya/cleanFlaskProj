@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <title>QnI Admin Tool</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="field">
+                <form action="/cleaned" method="post">
+                    <label class="py-5 label">Remove Extra Commas and Clean Mathml</label>
+                    <div class="control">
+                        <textarea class="textarea is-medium" type="text" placeholder="Paste source code here"
+                            name="src_code"></textarea>
+                        <div class="control py-5">
+                            <button type="submit" class="button is-info is-dark">Clean</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
